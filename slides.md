@@ -14,7 +14,7 @@ drawings:
 defaults:
   foo: true
 transition: slide-left
-title: Welcome to Slidev
+title: Copilot Lunch & Learn
 mdc: true
 monaco: true
 monacoTypesSource: local # or cdn or none
@@ -22,13 +22,13 @@ monacoTypesAdditionalPackages:
   - '@slidev/types'
 ---
 
-# Welcome to Slidev
+# Copilot Lunch & Learn
 
-Presentation slides for developers
+Hosted by Liatrio
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
+    <img src="assets/copilot.png" alt="Copilot Logo" class="inline" style="width: 200px; height: auto;"/>
   </span>
 </div>
 
@@ -36,7 +36,7 @@ Presentation slides for developers
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon:edit />
   </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub" title="Open in GitHub"
+  <a href="https://github.com/liatrio/copilot-lunch-and-learn" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
