@@ -1,5 +1,13 @@
 // vite.config.js
-export default {
-    base: '/dist/',
-    // other configurations...
+export default ({ mode }) => {
+  if (mode === 'production') {
+    return {
+      base: '/dist/',
+      // other production configurations...
+    }
+  } else {
+    return {
+      // local configurations...
+    }
   }
+}
