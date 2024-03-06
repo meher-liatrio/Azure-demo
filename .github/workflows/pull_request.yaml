@@ -1,4 +1,4 @@
-name: Deploy pages
+name: Build Slidev
 
 on:
   pull_request:
