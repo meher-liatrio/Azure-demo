@@ -24,6 +24,24 @@ transition: fade-out
 
 *Surround*: Utilize descriptive filenames and keep related files open. This provides Copilot with rich context, leading to more tailored code suggestions. Including variable names, function signatures, data types, or example inputs and outputs helps GitHub Copilot understand the problem better. You can also provide pseudocode, code snippets, or partial implementations in your prompt to guide GitHub Copilot in generating the desired code. This can help ensure that the generated code aligns with your expectations and coding style.
 
+<!--
+### Clear Problem Statement
+Provide a clear and concise problem statement in your prompt. Clearly outline what you're trying to achieve and any specific requirements or constraints.
+
+### Small Batch Prompts 
+Break down complex problems into smaller, more manageable prompts. This can help GitHub Copilot generate more accurate and relevant code snippets for each specific task.
+
+### Specific Keywords
+Use specific keywords or phrases related to the problem domain in your prompt. This can help GitHub Copilot better understand the problem and generate more contextually relevant code. For example: “Create a function to sort an array of integers in ascending order.”
+Keywords: "function", "sort", "array", "integers", "ascending order"
+
+### Contextual Information
+Include relevant context information in your prompt to help GitHub Copilot understand the problem better. This could include variable names, function signatures, data types, or example inputs and outputs.
+### Pseudocode and Code Snippets
+Provide example code snippets or partial implementations in your prompt to guide GitHub Copilot in generating the desired code. This can help ensure that the generated code aligns with your expectations and coding style.
+
+
+-->
 
 ---
 transition: fade-out
