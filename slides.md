@@ -14,7 +14,7 @@ drawings:
 defaults:
   foo: true
 transition: slide-left
-title: Copilot Lunch & Learn
+title: Githb Copilot Lunch & Learn
 mdc: true
 monaco: true
 monacoTypesSource: local # or cdn or none
@@ -22,7 +22,7 @@ monacoTypesAdditionalPackages:
   - '@slidev/types'
 ---
 
-# Copilot Lunch & Learn
+# Github Copilot Lunch & Learn
 
 Hosted by Liatrio
 
