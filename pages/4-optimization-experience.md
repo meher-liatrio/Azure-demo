@@ -1,11 +1,11 @@
 # Optimizing the Copilot Experience
 ## Understanding limitations, risks, and common pitfalls
-* Quality & Maintainability: AI-generated code may be inefficient or unclear, potentially increasing maintenance costs and technical debt. It is essential to document and comment for better understanding and upkeep.
-* Security Risks: Be vigilant for vulnerabilities in AI-generated code. Regular security reviews and dependency scans are crucial.
-* License Compliance: Ensure AI-generated code complies with legal licensing to avoid conflicts.
-* Deskilling & Overreliance: Guard against dependency on AI for coding. Balance AI use with skill development.
-* Bias & Ethics: Watch for biases in AI-generated code, especially in sensitive applications.
-* Performance: AI-generated code may require optimization. Review and adjust to meet performance standards.
+* Quality & Maintainability
+* Security Risks
+* License Compliance
+* Deskilling & Overreliance
+* Bias & Ethics
+* Performance
 
 ---
 transition: fade-out
