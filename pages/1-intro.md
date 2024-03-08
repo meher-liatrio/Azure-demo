@@ -1,11 +1,16 @@
 # Intro to GitHub Copilot
 ## Revolutionizing Software Development with AI: An Engineering Perspective
-* Code Generation & Assistance
-* Unit Tests Automation
-* Dynamic Documentation
-* Smart Commit Messages
-* Enhanced Pull Requests
-* Predictive Bug Detection
+
+<v-clicks>
+
+- Code Generation & Assistance
+- Unit Tests Automation
+- Dynamic Documentation
+- Smart Commit Messages
+- Enhanced Pull Requests
+- Predictive Bug Detection
+
+</v-clicks>
 
 ---
 transition: fade-out

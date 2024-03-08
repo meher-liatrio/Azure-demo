@@ -20,15 +20,14 @@ monaco: true
 monacoTypesSource: local # or cdn or none
 monacoTypesAdditionalPackages:
   - '@slidev/types'
+layout: image
+image: /liatrio-bg.png
+backgroundSize: contain
 ---
 
-# Github Copilot Lunch & Learn
-
-Hosted by Liatrio
-
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
+<div class="text-center" style="display: flex; align-items: center;">
+  <span v-mark="{ at: 1, color: '#89df00'}">
+    <h1 style="margin: auto;">Github Copilot Lunch & Learn</h1>
   </span>
 </div>
 
@@ -47,8 +46,17 @@ The last comment block of each slide will be treated as slide notes. It will be 
 -->
 
 ---
-transition: fade-out
+src: ./pages/0-presenters.md
+layout: image
+image: /liatrio-bg.png
+backgroundSize: contain
+---
+
+---
 src: ./pages/1-intro.md
+layout: image
+image: /liatrio-bg.png
+backgroundSize: contain
 ---
 
 <!-- this page will be loaded from './pages/1-intro.md' -->
@@ -56,7 +64,9 @@ Inline content will be ignored.
 
 ---
 src: ./pages/2-basic.md
-transition: fade-out
+layout: image
+image: /liatrio-bg.png
+backgroundSize: contain
 ---
 
 <!-- this page will be loaded from './pages/3-basic.md' -->
@@ -64,7 +74,9 @@ Inline content will be ignored.
 
 ---
 src: ./pages/3-feature-dev.md
-transition: fade-left
+layout: image
+image: /liatrio-bg.png
+backgroundSize: contain
 ---
 
 <!-- this page will be loaded from './pages/4-feature-dev.md' -->
@@ -72,7 +84,9 @@ Inline content will be ignored.
 
 ---
 src: ./pages/4-optimization-experience.md
-transition: fade-out
+layout: image
+image: /liatrio-bg.png
+backgroundSize: contain
 ---
 
 <!-- this page will be loaded from './pages/5-optimization-experience.md' -->
@@ -80,7 +94,9 @@ Inline content will be ignored.
 
 ---
 src: ./pages/5-enterprise.md
-layout: default
+layout: image
+image: /liatrio-bg.png
+backgroundSize: contain
 ---
 
 <!-- this page will be loaded from './pages/6-enterprise.md' -->
