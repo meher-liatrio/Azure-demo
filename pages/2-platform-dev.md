@@ -1,6 +1,10 @@
-# Copilot in Action: Day in the Life (Platform Development)
+# Copilot in Action: Platform Development
 
-## Add a monitor with a zoom in feature to the next slide
+<div align="center">
+
+![Copiling](/copiling.png){: style="border: 3px double #ebebe8": width=55%}
+
+</div>
 
 ---
 transition: zoom
@@ -51,9 +55,13 @@ transition: fade-out
 
 ## Well, that doesn't seem right
 
-<!-- insert image of a node16 deprecation error -->
+I'm getting a deprecation warning for Node.js. I'm not sure how to fix it. I'll ask Copilot for some suggestions.
 
-I'm getting a deprecation warning for Node.js 16. I'm not sure how to fix it. I'll ask Copilot for some suggestions.
+<div align="center">
+
+![GitHub Actions](/node-deprecation.png){: style="border: 3px double #ebebe8": width=80%}
+
+</div>
 
 <div class="abs-br m-6 flex gap-2">
   <span v-mark="{ at: 0, color: '#24ae1d', type: 'circle' }">

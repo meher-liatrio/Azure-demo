@@ -36,7 +36,7 @@ transition: fade-out
 # What is GitHub Copilot?
 Let's just ask Copilot itself!
 
-<div style="position: relative; width: 600px; height: 400px; margin: 0 auto;">
+<div v-click style="position: relative; width: 600px; height: 400px; margin: 0 auto;">
 
 ![macbook](/macbook.png){ style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" }
 

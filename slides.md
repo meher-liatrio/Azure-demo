@@ -60,26 +60,18 @@ backgroundSize: contain
 ---
 
 ---
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-src: ./pages/2-basic.md
+src: ./pages/2-platform-dev.md
 layout: image
 image: /liatrio-bg.png
 backgroundSize: contain
 ---
 
-<!-- this page will be loaded from './pages/3-basic.md' -->
-Inline content will be ignored.
-
 ---
-src: ./pages/3-platform-dev.md
+src: ./pages/3-feature-dev.md
 layout: image
 image: /liatrio-bg.png
 backgroundSize: contain
 ---
-
-<!-- this page will be loaded from './pages/4-feature-dev.md' -->
-Inline content will be ignored.
 
 ---
 src: ./pages/4-optimization-experience.md
@@ -88,15 +80,9 @@ image: /liatrio-bg.png
 backgroundSize: contain
 ---
 
-<!-- this page will be loaded from './pages/5-optimization-experience.md' -->
-Inline content will be ignored.
-
 ---
 src: ./pages/5-enterprise.md
 layout: image
 image: /liatrio-bg.png
 backgroundSize: contain
 ---
-
-<!-- this page will be loaded from './pages/6-enterprise.md' -->
-Inline content will be ignored.
