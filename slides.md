@@ -73,7 +73,7 @@ backgroundSize: contain
 Inline content will be ignored.
 
 ---
-src: ./pages/3-feature-dev.md
+src: ./pages/3-platform-dev.md
 layout: image
 image: /liatrio-bg.png
 backgroundSize: contain

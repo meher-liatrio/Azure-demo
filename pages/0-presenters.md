@@ -1,4 +1,5 @@
-<h1 style="text-align: center; margin-bottom: 0em;">Presenters</h1>
+
+# Presenters
 
 <div grid="~ cols-2 gap-6">
 

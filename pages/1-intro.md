@@ -1,22 +1,48 @@
 # Intro to GitHub Copilot
 ## Revolutionizing Software Development with AI: An Engineering Perspective
+<br>
 
-<v-clicks>
+<div grid="~ cols-3 gap-6">
 
-- Code Generation & Assistance
-- Unit Tests Automation
-- Dynamic Documentation
-- Smart Commit Messages
-- Enhanced Pull Requests
-- Predictive Bug Detection
+<div v-click style="border: 2px double #24ae1d; border-radius: 10px; padding: 10px;">
+    <p>🧑‍💻 Code Generation</p>
+</div>
 
-</v-clicks>
+<div v-click style="border: 2px double #24ae1d; border-radius: 10px; padding: 10px;">
+    <p>👩‍🔬 Unit Tests Automation</p>
+</div>
+
+<div v-click style="border: 2px double #24ae1d; border-radius: 10px; padding: 10px;">
+    <p>💬 Smart Commit Messages</p>
+</div>
+
+<div v-click style="border: 2px double #24ae1d; border-radius: 10px; padding: 10px;">
+    <p>✅ Enhanced Pull Requests</p>
+</div>
+
+<div v-click style="border: 2px double #24ae1d; border-radius: 10px; padding: 10px;">
+    <p>🐞 Debugging Helper</p>
+</div>
+
+<div v-click style="border: 2px double #24ae1d; border-radius: 10px; padding: 10px;">
+    <p>🔒 Security Hardening</p>
+</div>
+
+</div>
 
 ---
 transition: fade-out
 ---
-## What is GitHub Copilot?
+# What is GitHub Copilot?
 Let's just ask Copilot itself!
+
+<div style="position: relative; width: 600px; height: 400px; margin: 0 auto;">
+
+![macbook](/macbook.png){ style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" }
+
+![ask-copilot](/what-is-copilot.gif){ style="position: absolute; top: 12%; left: 75px; width: 75%; height: 75%" }
+
+</div>
 
 ---
 transition: fade-out
@@ -24,20 +50,35 @@ transition: fade-out
 ## GitHub Copilot versus the Field
 While Copilot is not the only AI developer tool available, it sets itself apart from the competition in a few ways that are worth noting.
 
-### Base Training Data & Model
-Copilot is trained on a wide variety of public code repositories, giving it a variety of coding languages, styles, and practices to draw from.  While this can be a double-edged sword at times, it does result in a very broad range of languages, frameworks, and styles that Copilot can assist with.
+<div grid="~ cols-2 gap-6">
+
+<div v-click style="border: 2px double #24ae1d; border-radius: 10px; padding: 10px;">
+
+### Base Training Model
+
+[GitHub Copilot now has a better AI model and new capabilities](https://github.blog/2023-02-14-github-copilot-now-has-a-better-ai-model-and-new-capabilities/)
+
+</div>
+
+<div v-click style="border: 2px double #24ae1d; border-radius: 10px; padding: 10px;">
 
 ### Integration Into the GitHub Ecosystem
+[GitHub.com Integrations](https://github.com/features/copilot?ef_id=_k_CjwKCAjw17qvBhBrEiwA1rU9w0NdPWBMkpWmLWSDGBB8nary5pEt5-G7TqBl-YthzkOO2pDyc0-6VhoCJTMQAvD_BwE_k_&OCID=AIDcmmc3fhtaow_SEM__k_CjwKCAjw17qvBhBrEiwA1rU9w0NdPWBMkpWmLWSDGBB8nary5pEt5-G7TqBl-YthzkOO2pDyc0-6VhoCJTMQAvD_BwE_k_&gad_source=1&gclid=CjwKCAjw17qvBhBrEiwA1rU9w0NdPWBMkpWmLWSDGBB8nary5pEt5-G7TqBl-YthzkOO2pDyc0-6VhoCJTMQAvD_BwE)
 
-Copilot is available directly within GitHub, making it easy to use and integrate into existing development workflows. If a team is already using GitHub, Copilot can be a natural extension of their existing workflow.
+</div>
 
----
-transition: fade-out
----
-## GitHub Copilot versus the Field Contd.
+<div v-click style="border: 2px double #24ae1d; border-radius: 10px; padding: 10px;">
+
 ### Variety of Interfaces  
-Even if teams aren't using GitHub or VSCode, Copilot has a growing list of plugins, making it available to a variety of editors and IDEs. For those using VSCode, Copilot has both chat and code completion capabilities.
+[Supported IDEs for Copilot](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment)
 
+</div>
 
-### Prompt Engineering  
-Having the option to utilize prompt engineering within GitHub Copilot allows teams to both tailor and improve their experience. This can help to ensure that Copilot is providing the most relevant and useful suggestions for the team's specific needs.
+<div v-click style="border: 2px double #24ae1d; border-radius: 10px; padding: 10px;">
+
+### Prompt Engineering 
+[Intro to Prompt Engineering](https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/)
+
+</div>
+
+</div>

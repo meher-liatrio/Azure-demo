@@ -22,14 +22,16 @@
   h1 {
     color: var(--slidev-theme-primary);
     font-size: 2em;
-    margin-bottom: 1.5em;
+    margin-bottom: .5em;
     margin-left: -0.05em;
+    text-align: center;
   }
 
   h1 + p {
     margin-top: -0.5em;
     opacity: 0.5;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
+    text-align: center;
   }
 
   p + h2, ul + h2, table + h2 {
@@ -39,11 +41,19 @@
   h2 {
     color: var(--slidev-theme-secondary);
     font-size: 1.5em;
+    text-align: center;
+  }
+
+  h2 + p {
+    opacity: 0.5;
+    margin-bottom: .5em;
+    text-align: center;
   }
 
   h3 {
     color: var(--slidev-theme-tertiary);
-    font-size: 1.17em;
+    font-size: 1.1em;
+    margin-bottom: -0.5em;
   }
 
   h4 {
