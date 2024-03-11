@@ -1,11 +1,34 @@
 # Optimizing the Copilot Experience
 ## Understanding limitations, risks, and common pitfalls
-* Quality & Maintainability
-* Security Risks
-* License Compliance
-* Deskilling & Overreliance
-* Bias & Ethics
-* Performance
+<br>
+
+<div grid="~ cols-3 gap-6">
+
+<div style="border: 2px double #24ae1d; border-radius: 10px; padding: 10px;">
+    <p>🔧 Quality & Maintainability</p>
+</div>
+
+<div style="border: 2px double #24ae1d; border-radius: 10px; padding: 10px;">
+    <p>🔓 Security Risks</p>
+</div>
+
+<div style="border: 2px double #24ae1d; border-radius: 10px; padding: 10px;">
+    <p>🪪 License Compliance</p>
+</div>
+
+<div style="border: 2px double #24ae1d; border-radius: 10px; padding: 10px;">
+    <p>🤷🏼 Deskilling & Overreliance</p>
+</div>
+
+<div style="border: 2px double #24ae1d; border-radius: 10px; padding: 10px;">
+    <p>⚖️ Bias & Ethics</p>
+</div>
+
+<div style="border: 2px double #24ae1d; border-radius: 10px; padding: 10px;">
+    <p>🐇 Performance</p>
+</div>
+
+</div>
 
 ---
 transition: fade-out

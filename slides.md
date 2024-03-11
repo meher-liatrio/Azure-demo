@@ -86,3 +86,10 @@ layout: image
 image: /liatrio-bg.png
 backgroundSize: contain
 ---
+
+---
+src: ./pages/6-end.md
+layout: image
+image: /liatrio-bg.png
+backgroundSize: contain
+---
