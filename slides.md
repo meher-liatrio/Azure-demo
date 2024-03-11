@@ -59,10 +59,9 @@ image: /liatrio-bg.png
 backgroundSize: contain
 ---
 
-<!-- this page will be loaded from './pages/1-intro.md' -->
-Inline content will be ignored.
-
 ---
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 src: ./pages/2-basic.md
 layout: image
 image: /liatrio-bg.png
