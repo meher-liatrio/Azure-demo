@@ -1,42 +1,34 @@
 
-# Presenters
+# Presenter
 
-<div grid="~ cols-2 gap-6">
+<div grid="~ cols-1 gap-6">
 
 <div style="display: flex; justify-content: center;">
 
-![Mitchell Phillips](/Mitchell-Phillips.png){: style="border: 3px double #24ae1d; border-radius: 10px; margin-bottom: -2em;" width="250"}
+![Meher Lippmann](/Meher-Lippmann.png){: style="border: 3px double #24ae1d; border-radius: 10px; margin-bottom: -2em;" width="250"}
 
 </div>
 
-<v-click at=1>
-<div style="display: flex; justify-content: center;">
+<h2 style="text-align: center;">Meher Lippmann</h2>
 
-![Robert Dailey](/Robert-Dailey.png){: style="border: 3px double #24ae1d; border-radius: 10px; margin-bottom: -2em;" width="250"}
-  
-</div>
-</v-click>
-
-<h2 style="text-align: center;">Mitchell Phillips</h2>
-
-<v-click at=1>
-<h2 style="text-align: center;">Robert Dailey</h2>
-</v-click>
+<div style="width: 60%; margin: auto;">
 
 ```yaml
-Occupation: Senior DevOps Engineer
-Location: Rogers, AR
-Hobbies: Climbing 🧗🏻, Biking 🚲, and Travel 🛫
-```
+Occupation: Liatrio DevOps Apprentice
+Location: Chico, Ca
+Hobbies: Reading 📖, playing music 🎼, bullet chess, ♟️
 
-<v-click at=1>
-```json
-{ 
-  "Occupation": "Senior DevOps Engineer", 
-  "Location": "Chico, CA", 
-  "Hobbies": "Dr Pepper, Live Music 🎸" 
-}
 ```
-</v-click>
+</div>
 
+</div>
+
+<div class="abs-br m-6 flex gap-2">
+  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon:edit />
+  </button>
+  <a href="https://github.com/meher-liatrio/Azure-demo" target="_blank" alt="GitHub" title="Open in GitHub"
+    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon-logo-github />
+  </a>
 </div>

@@ -1,6 +1,6 @@
 ---
 theme: ./liatrio-theme
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: /blue-green-bg.png
 class: flex
 highlighter: shiki
 lineNumbers: false
@@ -14,20 +14,20 @@ drawings:
 defaults:
   foo: true
 transition: slide-left
-title: Githb Copilot Lunch & Learn
+title: Custom Azure Images with Packer on Azure Image Gallery
 mdc: true
 monaco: true
 monacoTypesSource: local # or cdn or none
 monacoTypesAdditionalPackages:
   - '@slidev/types'
 layout: image
-image: /liatrio-bg.png
+image: /blue-green-bg.png
 backgroundSize: contain
 ---
 
 <div class="text-center" style="display: flex; align-items: center;">
   <span v-mark="{ at: 1, color: '#89df00'}">
-    <h1 style="margin: auto;">Github Copilot Lunch & Learn</h1>
+    <h1 style="margin: auto;">Custom Azure Images with Packer on Azure Image Gallery</h1>
   </span>
 </div>
 
@@ -35,7 +35,7 @@ backgroundSize: contain
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon:edit />
   </button>
-  <a href="https://github.com/liatrio/copilot-lunch-and-learn" target="_blank" alt="GitHub" title="Open in GitHub"
+  <a href="https://github.com/meher-liatrio/Azure-demo" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
@@ -48,48 +48,20 @@ The last comment block of each slide will be treated as slide notes. It will be 
 ---
 src: ./pages/0-presenters.md
 layout: image
-image: /liatrio-bg.png
+image: /blue-green-bg.png
 backgroundSize: contain
 ---
 
 ---
 src: ./pages/1-intro.md
 layout: image
-image: /liatrio-bg.png
-backgroundSize: contain
----
-
----
-src: ./pages/2-platform-dev.md
-layout: image
-image: /liatrio-bg.png
-backgroundSize: contain
----
-
----
-src: ./pages/3-feature-dev.md
-layout: image
-image: /liatrio-bg.png
-backgroundSize: contain
----
-
----
-src: ./pages/4-optimization-experience.md
-layout: image
-image: /liatrio-bg.png
-backgroundSize: contain
----
-
----
-src: ./pages/5-enterprise.md
-layout: image
-image: /liatrio-bg.png
+image: /blue-green-bg.png
 backgroundSize: contain
 ---
 
 ---
 src: ./pages/6-end.md
 layout: image
-image: /liatrio-bg.png
+image: /blue-green-bg.png
 backgroundSize: contain
 ---
